@@ -9,7 +9,7 @@ corr <- function(directory, threshold = 0) {
   
   ## Return a numeric vector of correlations
   
-  files_dir <- paste("~/Desktop/assign1/", directory, "/", sep = "")
+  files_dir <- paste("~/R-Programming/assign1/", directory, "/", sep = "")
   observed_cases <- complete(directory)
   threshold_filter <- observed_cases[observed_cases$nobs > threshold, ]
   ids <- threshold_filter$id

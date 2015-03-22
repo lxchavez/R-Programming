@@ -13,7 +13,7 @@ complete <- function(directory, id = 1:332) {
   ## where 'id' is the monitor ID number and 'nobs' is the
   ## number of complete cases
   
-  files_dir <- paste("~/Desktop/assign1/", directory, "/", sep = "")
+  files_dir <- paste("~/R-Programming/assign1/", directory, "/", sep = "")
   merged_data <- data.frame(id = 0, nobs = 0)
   for (current_id in id)
   {

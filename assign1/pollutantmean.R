@@ -12,7 +12,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
   ## Return the mean of the pollutant across all monitors list
   ## in the 'id' vector (ignoring NA values)
   
-  files_dir <- paste("~/Desktop/assign1/", directory, "/", sep = "")
+  files_dir <- paste("~/R-Programming/assign1/", directory, "/", sep = "")
   merged_data <- data.frame()
   for (file in list.files(files_dir))
   {
